@@ -9,4 +9,8 @@ public class Drawer {
 
     }
 
+    public static void drawLine(Canvas canvas, int x0, int y0, int x1, int y1) {
+        /*here were drawing line*/
+    }
+
 }
