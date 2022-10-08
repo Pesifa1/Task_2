@@ -1,4 +1,4 @@
-package cs.vsu.ru.putilin_m_d.task_1_1;
+package cs.vsu.ru.putilin_m_d.task_2_8;
 
 public class Point {
 

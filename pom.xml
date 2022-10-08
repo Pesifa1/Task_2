@@ -80,7 +80,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>cs.vsu.ru.putilin_m_d.task_1_1/cs.vsu.ru.putilin_m_d.task_1_1.HelloApplication
+                            <mainClass>cs.vsu.ru.putilin_m_d.task_1_1/cs.vsu.ru.putilin_m_d.task_2_8.HelloApplication
                             </mainClass>
                         </configuration>
                     </execution>

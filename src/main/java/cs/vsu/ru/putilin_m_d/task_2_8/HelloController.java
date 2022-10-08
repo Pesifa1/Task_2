@@ -1,4 +1,4 @@
-package cs.vsu.ru.putilin_m_d.task_1_1;
+package cs.vsu.ru.putilin_m_d.task_2_8;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -14,9 +14,9 @@ public class HelloController {
 
     @FXML
     protected void drawButton() {
-        canvas.getGraphicsContext2D().setFill(Color.BLACK);
-        canvas.getGraphicsContext2D().fillRect(3, 3, 40, 40);
-        canvas.getGraphicsContext2D().fillOval(40,40, 40, 40);
+
+        Drawer drawer = new Drawer(canvas, 80 , Color.YELLOW, Color.VIOLET);
+        drawer.fillCircle();
     }
 
 }
